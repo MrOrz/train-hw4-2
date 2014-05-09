@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <title>Facebook 垃圾社團檢查器</title>
+</head>
+<body>
+  <div class="container text-center">
+    <header class="hero-unit">
+      <div class="page-header">
+        <h1>Facebook 垃圾社團檢查器</h1>
+      </div>
+      <p><button class="hw4-start-button btn btn-primary btn-large disabled" disabled>開始掃描</button></p>
+    </header>
+      <h3>掃描結果</h3>
+      <table class="hw4-result table"></table>
+    <hr>
+    <footer>
+      <p>資訊系統訓練班 234 期 Ajax &amp; Facebook 練習作業</p>
+      <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fdl.dropboxusercontent.com%2Fu%2F3813488%2Ftrain%2Fhw4-course%2Findex.html&amp;width&amp;layout=standard&amp;action=like&amp;show_faces=false&amp;share=false&amp;height=35&amp;appId=259195264246285" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:25px;" allowTransparency="true"></iframe>
+      <p>垃圾社團清單來源：<a href="http://spamgroup.tonyq.org/groups/json">Facebook 廣告社團檢查器 API</a></p>
+    </footer>
+  </div>
+
+
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script type="text/javascript" src="js/checker.js"></script>
+  <script type="text/javascript" src="http://connect.facebook.net/en_US/all.js" id="facebook-jssdk"></script>
+</body>
+</html>
